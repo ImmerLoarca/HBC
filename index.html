@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Estilos.css">
+    <link rel="stylesheet" href="Css/fontello.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Happy Birthday</title>
+</head>
+
+<header>
+    <div  class="contenedor head">
+        <h1 class="titulo">¡Hola Cumpleañero!</h1>
+        <h2 class="Subt">Este es un regalo creado por mí para tus 18 años</h2>
+        <p class="copy">En esta página veras muchas cosas que se que te gustarán, quisiera mencionar que esté es un gran día y te doy este regalo no solo por tu cumpleaños, sino que tambien para que recuerdes que hay personas que te amamos mucho y que eres importante en nuestras vidas.</p>
+    </div>
+</header>
+
+<Main>
+    <section>
+        <h2 class="subtitulo">Tú música</h2>
+        <div class="Container">
+            
+
+            <div class="Player">
+                <div class="Player_controls">
+                    <div class="player__btn player__btn--small">
+                        <i class="icon-left"></i>
+                    </div>
+                    <h5 class="player__title"> Playing now</h5>
+                    <div class="player__btn player__btn--small">
+                        <i class="icon-heart"></i>
+                    </div>
+                </div>
+    
+                <div class="player__album">
+                 <img class="player__img" src="https://elrescatemusical.com/wp-content/uploads/2019/09/unnamed-1-3.jpg" alt="" />
+                </div>
+                <h2 class="player__artist"><b> Mejores Amigos </b></h2>
+                <h3 class="player__song"> Morat </h3>
+    
+                <input class="player__level" type="range" value="5" min="0" />
+    
+                <div class="audio--duration">
+                    <div class="start">00:01</div>
+                    <div class="end">03:25</div>
+                </div>
+    
+                <audio class="player__audio" controls id="BTD">
+                    <source src="Audio/Yera_ Morat - Mejores Amigos(MP3_320K).mp3" type="Audio/mp3" />
+                </audio>
+    
+                <div class="Player_controls">
+                    <div class="player__btn player__btn--medium">
+                        <i class="icon-to-start"></i>
+                    </div>
+                    
+                    <div class="player__btn player__btn--medium blue yellow" id="ride">
+                        <i class="icon-play play-btn"></i>
+                        <i class="icon-pause pause-btn hide"></i>
+                    </div>
+    
+                    <div class="player__btn player__btn--medium">
+                        <i class="icon-to-end"></i>
+                    </div>
+                </div>
+            </div>
+    
+    
+          
+            <div class="Player">
+                <div class="Player_controls">
+                    <div class="player__btn player__btn--small">
+                        <i class="icon-left"></i>
+                    </div>
+                    <h5 class="player__title"> Playing now</h5>
+                    <div class="player__btn player__btn--small">
+                        <i class="icon-heart press" id="Presed"></i>
+                    </div>
+                </div>
+    
+                <div class="player__album">
+                 <img class="player__img" src="https://i.scdn.co/image/ab67616d0000b27302bf1057986d3d64dec7e66a" alt="" />
+                </div>
+                <h2 class="player__artist"><b> Date La Vuelta </b></h2>
+                <h3 class="player__song"> Morat </h3>
+    
+                <input class="player__level" type="range" value="5" min="0" />
+    
+                <div class="audio--duration">
+                    <div class="start">00:01</div>
+                    <div class="end">03:17</div>
+                </div>
+    
+                <audio class="player__audio" controls id="audio">
+                    <source src="Audio/Morat - Date La Vuelta(MP3_320K).mp3" type="Audio/mpeg" />
+                </audio>
+    
+                <div class="Player_controls">
+                    <div class="player__btn player__btn--medium">
+                        <i class="icon-to-start"></i>
+                    </div>
+                    
+                    <div class="player__btn player__btn--medium blue green" id="play">
+                        <i class="icon-play play-btn"></i>
+                        <i class="icon-pause pause-btn hide"></i>
+                    </div>
+    
+                    <div class="player__btn player__btn--medium">
+                        <i class="icon-to-end"></i>
+                    </div>
+                </div>
+            </div>
+           
+        
+            <div class="Player">
+                <div class="Player_controls">
+                    <div class="player__btn player__btn--small">
+                        <i class="icon-left"></i>
+                    </div>
+                    <h5 class="player__title"> Playing now</h5>
+                    <div class="player__btn player__btn--small">
+                        <i class="icon-heart"></i>
+                    </div>
+                </div>
+    
+                <div class="player__album">
+                 <img class="player__img" src="https://i.scdn.co/image/ab67616d0000b27302bf1057986d3d64dec7e66a" alt="" />
+                </div>
+                <h2 class="player__artist"><b> Idiota </b></h2>
+                <h3 class="player__song"> Morat, Danna Paola </h3>
+    
+                <input class="player__level" type="range" value="5" min="0" />
+    
+                <div class="audio--duration">
+                    <div class="start">00:00</div>
+                    <div class="end">03:04</div>
+                </div>
+    
+                <audio class="player__audio" controls id="CAS">
+                    <source src="Audio/Morat_ Danna Paola - Idiota(MP3_320K).mp3" type="Audio/mp3" />
+                </audio>
+    
+                <div class="Player_controls">
+                    <div class="player__btn player__btn--medium">
+                        <i class="icon-to-start"></i>
+                    </div>
+                    
+                    <div class="player__btn player__btn--medium blue green" id="Ap">
+                        <i class="icon-play play-btn"></i>
+                        <i class="icon-pause pause-btn hide"></i>
+                    </div>
+    
+                    <div class="player__btn player__btn--medium">
+                        <i class="icon-to-end"></i>
+                    </div>
+                </div>
+             </div>
+           </div>
+         </div>
+    </div> 
+
+<!--Otro container-->
+<div class="Container">
+	<div class="Player">
+		<div class="Player_controls">
+			<div class="player__btn player__btn--small">
+				<i class="icon-left"></i>
+			</div>
+			<h5 class="player__title"> Playing now</h5>
+			<div class="player__btn player__btn--small">
+				<i class="icon-heart"></i>
+			</div>
+		</div>
+
+		<div class="player__album">
+		 <img class="player__img" src="https://www.lahiguera.net/musicalia/artistas/olivia_rodrigo/disco/11184/olivia_rodrigo_sour-portada.jpg" alt="" />
+		</div>
+		<h2 class="player__artist"><b> drivers license </b> </h2>
+		<h3 class="player__song"> Olivia Rodrigo </h3>
+
+		<input class="player__level" type="range" value="5" min="0" />
+
+		<div class="audio--duration">
+			<div class="start">00:00</div>
+			<div class="end">04:02</div>
+		</div>
+
+		<audio class="player__audio" controls id="Cas">
+			<source src="Audio/Olivia Rodrigo - drivers license (Official Video)(MP3_320K).mp3" type="Audio/mpeg" />
+		</audio>
+
+		<div class="Player_controls">
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-start"></i>
+			</div>
+			
+			<div class="player__btn player__btn--medium blue purple" id="Neon">
+				<i class="icon-play play-btn"></i>
+				<i class="icon-pause pause-btn hide"></i>
+			</div>
+
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-end"></i>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="Player">
+		<div class="Player_controls">
+			<div class="player__btn player__btn--small">
+				<i class="icon-left"></i>
+			</div>
+			<h5 class="player__title"> Playing now</h5>
+			<div class="player__btn player__btn--small">
+				<i class="icon-heart"></i>
+			</div>
+		</div>
+
+		<div class="player__album">
+		 <img class="player__img" src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/3/b/3/0/589411501678994.jpg" alt="" />
+		</div>
+		<h2 class="player__artist"><b> Young & Dumb </b> </h2>
+		<h3 class="player__song"> Cigarettes After Sex </h3>
+
+		<input class="player__level" type="range" value="5" min="0" />
+
+		<div class="audio--duration">
+			<div class="start">00:00</div>
+			<div class="end">04:33</div>
+		</div>
+
+		<audio class="player__audio" controls id="TI">
+			<source src="Audio/Young _ Dumb - Cigarettes After Sex(MP3_320K).mp3" type="Audio/mpeg" />
+		</audio>
+
+		<div class="Player_controls">
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-start"></i>
+			</div>
+			
+			<div class="player__btn player__btn--medium blue black" id="YIC">
+				<i class="icon-play play-btn"></i>
+				<i class="icon-pause pause-btn hide"></i>
+			</div>
+
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-end"></i>
+			</div>
+		</div>
+	</div>
+   
+   
+
+	<div class="Player">
+		<div class="Player_controls">
+			<div class="player__btn player__btn--small">
+				<i class="icon-left"></i>
+			</div>
+			<h5 class="player__title"> Playing now</h5>
+			<div class="player__btn player__btn--small">
+				<i class="icon-heart"></i>
+			</div>
+		</div>
+
+		<div class="player__album">
+		 <img class="player__img" src="https://www.lahiguera.net/musicalia/artistas/olivia_rodrigo/disco/11184/olivia_rodrigo_sour-portada.jpg" alt="" />
+		</div>
+		<h2 class="player__artist"><b> Traitor </b> </h2>
+		<h3 class="player__song">  Olivia Rodrigo </h3>
+
+		<input class="player__level" type="range" value="5" min="0" />
+
+		<div class="audio--duration">
+			<div class="start">00:00</div>
+			<div class="end">03:57</div>
+		</div>
+
+		<audio class="player__audio" controls id="Clai">
+			<source src="Audio/Olivia Rodrigo - traitor (Official Video)(MP3_320K).mp3" type="Audio/mpeg" />
+		</audio>
+
+		<div class="Player_controls">
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-start"></i>
+			</div>
+			
+			<div class="player__btn player__btn--medium blue purple" id="Bags">
+				<i class="icon-play play-btn"></i>
+				<i class="icon-pause pause-btn hide"></i>
+			</div>
+
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-end"></i>
+			</div>
+		</div>
+	 </div>
+   </div>
+ </div>
+</div>
+
+<!-- ultimo container-->
+<div class="Container">
+	<div class="Player">
+		<div class="Player_controls">
+			<div class="player__btn player__btn--small">
+				<i class="icon-left"></i>
+			</div>
+			<h5 class="player__title"> Playing now</h5>
+			<div class="player__btn player__btn--small">
+				<i class="icon-heart"></i>
+			</div>
+		</div>
+
+		<div class="player__album">
+		 <img class="player__img" src="https://pbs.twimg.com/media/EYjgL-iXgAEYBXn.jpg" alt="" />
+		</div>
+		<h2 class="player__artist"><b> Bajo La Mesa </b> </h2>
+		<h3 class="player__song"> Morat, Sebastian Yatra </h3>
+
+		<input class="player__level" type="range" value="5" min="0" />
+
+		<div class="audio--duration">
+			<div class="start">00:00</div>
+			<div class="end">02:39</div>
+		</div>
+
+		<audio class="player__audio" controls id="Hayley">
+			<source src="Audio/Morat_ Sebastián Yatra - Bajo La Mesa(MP3_320K).mp3" type="Audio/mpeg" />
+		</audio>
+
+		<div class="Player_controls">
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-start"></i>
+			</div>
+			
+			<div class="player__btn player__btn--medium blue sky" id="FMF">
+				<i class="icon-play play-btn"></i>
+				<i class="icon-pause pause-btn hide"></i>
+			</div>
+
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-end"></i>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="Player">
+		<div class="Player_controls">
+			<div class="player__btn player__btn--small">
+				<i class="icon-left"></i>
+			</div>
+			<h5 class="player__title"> Playing now</h5>
+			<div class="player__btn player__btn--small">
+				<i class="icon-heart"></i>
+			</div>
+		</div>
+
+		<div class="player__album">
+		 <img class="player__img" src="https://cdns-images.dzcdn.net/images/cover/48d62545523e88d441b158d4bcb8dc6d/500x500.jpg" alt="" />
+		</div>
+		<h2 class="player__artist"><b>No Hay Más Que Hablar</b> </h2>
+		<h3 class="player__song">  Morat </h3>
+
+		<input class="player__level" type="range" value="5" min="0" />
+
+		<div class="audio--duration">
+			<div class="start">00:00</div>
+			<div class="end">03:46</div>
+		</div>
+
+		<audio class="player__audio" controls id="BE">
+			<source src="Audio/Morat - No Hay Más Que Hablar(MP3_320K).mp3" type="Audio/mpeg" />
+		</audio>
+
+		<div class="Player_controls">
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-start"></i>
+			</div>
+			
+			<div class="player__btn player__btn--medium blue billie" id="BBN">
+				<i class="icon-play play-btn"></i>
+				<i class="icon-pause pause-btn hide"></i>
+			</div>
+
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-end"></i>
+			</div>
+		</div>
+	</div>
+   
+
+	<div class="Player">
+		<div class="Player_controls">
+			<div class="player__btn player__btn--small">
+				<i class="icon-left"></i>
+			</div>
+			<h5 class="player__title"> Playing now</h5>
+			<div class="player__btn player__btn--small">
+				<i class="icon-heart"></i>
+			</div>
+		</div>
+
+		<div class="player__album">
+		 <img class="player__img" src="https://upload.wikimedia.org/wikipedia/en/6/63/Balas_perdidas.jpg" alt="" />
+		</div>
+		<h2 class="player__artist"><b> Cuando Nadie Ve </b> </h2>
+		<h3 class="player__song"> Morat </h3>
+
+		<input class="player__level" type="range" value="5" min="0" />
+
+		<div class="audio--duration">
+			<div class="start">00:00</div>
+			<div class="end">03:45</div>
+		</div>
+
+		<audio class="player__audio" controls id="TL">
+			<source src="Audio/Sleep On The Floor __ The Lumineers Lyrics(MP3_320K).mp3" type="Audio/mpeg" />
+		</audio>
+
+		<div class="Player_controls">
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-start"></i>
+			</div>
+			
+			<div class="player__btn player__btn--medium blue black" id="SOF">
+				<i class="icon-play play-btn"></i>
+				<i class="icon-pause pause-btn hide"></i>
+			</div>
+
+			<div class="player__btn player__btn--medium">
+				<i class="icon-to-end"></i>
+			</div>
+		</div>
+	 </div>
+   </div>
+ </div>
+</div>
+
+
+</section>
+
+<section class="Galeria">
+    
+    <h2 class="subtitulo">Datos del cumpleañeros</h2>
+ 
+    <div class="contenedor-servicio">
+    
+        <img src="IMG/Carlos.jpg" alt="">
+
+        <div class="checklist-servicio">
+            <div class="Important">
+                <h3 class="n-idea"><span class="number">1</span>Es una cajita de colores</h3>
+                <p>Carlos es una cajita de colores, siempre llega a colorearle la vida a las demas personas con su presencia, siempre llenando de a los demas con lo que hace y su gran sonrisa.</p> 
+            </div>
+            <div class="Important">
+                <h3 class="n-idea"><span class="number">2</span>Adora la música</h3>
+                <p>Siempre que escucha una de sus canciones favoritas sin duda alguna la canta a todo pulmon, demuestra gran energia e iniciativa al escuchar música y lo mejor es que si le enseñas una canción nueva el la respetara y te recordara por esa canción.</p>
+            </div>
+            <div class="Important">
+                <h3 class="n-idea"><span class="number">3</span>Es la mejor persona que conoceras</h3>
+                <p>A lo largo del tiempo que llevo conociendolo, Carlos ha demostrado ser una persona tan única en este mundo, él siempre se preocupa por los demas, demuestra sú inteligencia en todo y sin duda al estar cerca de él llegaras a otro mundo. Este es el efecto que causa conocer a alguien como Carlos, es la personas más única que encontraras.</p>
+            </div>
+        </div>
+         
+    </div>
+    
+</section>
+
+
+<section>
+    <h2 class="subtitulo"> Nuestros deseos para tí</h2>
+
+            <section class="experts">
+               
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1472552944129-b035e9ea3744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/Immer.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <h3>Immer Loarca</h3>
+                        <h4><b>Tu mejor amigo</b></h4>
+                        <p>Feliz cumpleaños mi querido y único mejor amigo, este día es tan especial ya que nació una personita que ha traído felicidad y luz a los demás, eres increíble sin duda alguna carlitos y estoy tan feliz de ser nombrado mejor amigo tuyo, apesar de todo me has demostrado siempre ser el mejor de todos y ser único en lo que haces. Se que llegaras lejos en esta vida ya que nadie puede detenerte Carlos, has demostrado ser el mejor amigo que voy a tener en mi vida y siempre te llevare en mi corazón, eres una persona esencial en mi vida y espero que siempre seas parte de esta.</p>
+                    </div>
+                </div>   
+
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1526161955674-92d767589833?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/Dani.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <b><h3>Daniela Morán</h3></b>
+                        <h4>Tu mejor amiga</h4>
+                        <p>Feliz cumpleaños al bebecito más lindo e inteligente. Solo quiero decirte que espero estés pasando un hermoso cumpleaños, que no olvides que te amo y que sos el niño más bonito, gracias por muchísimas cosas, y por brindarme una amistad muy sincera. Te amo cumpleañero lindo</p>
+                    </div>
+                
+                </div>   
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1583875762487-5f8f7c718d14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/Taty.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <b><h3>Tatiana Cardoza</h3></b>
+                        <h4>Tu mejor amiga</h4>
+                        <p>Amix quiero desearte feliz cumpleaños, sos una persona maravillosa y estoy muy agradecida por tenerte en mi vida, te deseo muchas bendiciones y espero que logres todas tus metas y deseos y espero poder estar a tu lado para verte triunfar y celebrarjuntos, ya sabes que aquí me tienes siempre incondicionalmente Te amo demasiado hoy y siempre.</p>
+                    </div>
+                </div>
+                
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/meli.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <h3>Melissa Guzman</h3>
+                        <h4><b>Tu mejor amiga</b></h4>
+                        <p>aaaaaa happy bday to youuuu. feliz cumpleaños Carlos, espero que hoy la pases muy muy pero muy bien. ojalá que todo lo que desees se cumpla. sos una persona increíble con un gran potencial para hacer las cosas y de verdad le pido a dios que te ayude en todo lo que hagas para que te vuelvas una persona exitosa. te amo mucho y gracias por existir.</p>
+                    </div>
+                </div> 
+
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1467165048326-5848fb9c0913?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/valu.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <h3>Valeria Elias</h3>
+                        <h4><b>Tu esposa</b></h4>
+                        <p>Carlitos, gracias por ser una luz para mi vida y la de las demás personas que te rodean y te amamos, estoy muy agradecida de poder llamarte mi amigo y ser parte de tu vida, gracias por cada momento, cada risa, cada abrazo, sos una persona increíble, nunca cambies.
+                            Feliz cumpleaños, siento que no hay necesidad de desearte lo mejor, sos una persona increíble y mereces todas las cosas buenas de este mundo y estoy segura de que cada una de ellas las vas a alcanzar, te amo </p>
+                    </div>
+                </div> 
+
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJpcnRoZGF5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/Mari.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <h3>Mariana Reyes</h3>
+                        <h4><b>Amiga</b></h4>
+                        <p> Carlitos, quiero desearte un felíz cumpleaños! Lleno de felicidad, amor y prosperidad en tu vida, eres una maravilla de persona, siempre dispuesto ayudar a los demás y marcar la vida de cada una de las personas que te conocen, siempre estaré muy agradecida por la ayuda que me brindas cuando lo necesito, gracias por ser luz en la vida de los demás, por tu chispa y creatividad, agradecida con la vida por permitirme conocerte y por un año más de tu existencia, felíz cumpleaños! ♡ </p>
+                    </div>
+                </div> 
+
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1554727225-ee66ff0a1bc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=794&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/Yada.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <h3>Yadary Arevalo</h3>
+                        <h4><b>Con la que te vas en el bus xd</b></h4>
+                        <p>Hola Carliwis. Pues solo quería desearte un feliz cumpleaños. Que Diosito te bendiga mucho y te guíe en tu camino. Sea Dios ayudándote a cumplir todas tus metas en esta vida. Te aprecio un montón y deseo de todo corazón que seas muy pero muy feliz. Gracias por ser el mejor manager en el fuegito y por ser mi Gps para lokiar. Loviu </p>
+                    </div>
+                </div> 
+
+                <div class="carded">
+                    <div class="head">
+                        <div class="circle"> <img src="https://images.unsplash.com/photo-1530104091755-015d31dfa0b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=709&q=80" alt=""></div>
+                        <div class="img">
+                            <img src="IMG/Chio.jpeg" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="drescription">
+                        <h3>Rocio Palacios</h3>
+                        <h4><b>Chiito</b></h4>
+                        <p>Carlitos! Te deseo un muy muy feliz cumpleaños, gracias por ser un chico tan genial y divino. Espero de corazón disfrutes mucho de este día, feliz de poder celebrar la legalidad con usted mi amigo, un día que se pueda nos vamos a lokiar para celebrar vea, a tomarnos un sodita, te quiero mucho :3. Cuando te vea te doy un gran abrazo de feliz cumpleaños, que tú día este lleno de brillitos y muchos colores, gracias por ser un amigo tan genial, no pares de pintar de colores bonitos la vida de las personas a tu alrededor. (Una fotito donde nos veíamos jóvenes) toneladas de amor para ti, eres una dulzura de persona</p>
+                    </div>
+                </div> 
+</section>
+
+</Main>
+
+<body>
+    
+</body>
+<script src="Java/Main.js"> </script>
+</html>
